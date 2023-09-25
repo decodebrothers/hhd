@@ -139,7 +139,7 @@ p {
 
 @media screen and (max-width: 767px) {
   .header-hhd .navbar-brand img {
-    max-width: 180px;
+    max-width: 150px;
   }
 }
 
@@ -185,9 +185,14 @@ p {
   font-size: 14px;
 }
 
+
+
 @media screen and (max-width: 767px) {
   .header-hhd .header-right a {
     font-size: 0;
+  }
+  .header-hhd .header-right a img, .header-hhd .header-right a svg{
+    width: 25px;
   }
 }
 
