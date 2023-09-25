@@ -191,16 +191,6 @@ p {
   }
 }
 
-.header-hhd .header-right a svg {
-  margin-left: 6px;
-}
-
-@media screen and (max-width: 991px) {
-  .header-hhd .header-right a svg {
-    margin: 0;
-  }
-}
-
 .hhdbanner-section {
   padding-bottom: 0;
   position: relative;
@@ -279,9 +269,9 @@ p {
 .hhdbanner-section .slick-arrow.slick-prev::before {
   content: '•';
   font-size: 30px;
-} 
+}
 
-.hhdbanner-section .slick-arrow.slick-next::before  {
+.hhdbanner-section .slick-arrow.slick-next::before {
   content: '•';
   font-size: 30px;
 }
@@ -543,18 +533,14 @@ p {
 
 .happienes-section .happienes-row {
   background: white;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(white),
-    to(rgba(255, 255, 255, 0.0732668))
-  );
-  background: linear-gradient(
-    180deg,
-    white 0%,
-    rgba(255, 255, 255, 0.0732668) 100%
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(white),
+      to(rgba(255, 255, 255, 0.0732668)));
+  background: linear-gradient(180deg,
+      white 0%,
+      rgba(255, 255, 255, 0.0732668) 100%);
   padding: 60px 60px;
   margin-top: 80px;
   display: -webkit-box;
@@ -620,35 +606,19 @@ p {
   width: 20%;
 }
 
-.happienes-section
-  .happienes-row
-  .happienes-right
-  .happienes-images
-  img:nth-child(1) {
+.happienes-section .happienes-row .happienes-right .happienes-images img:nth-child(1) {
   margin-top: 9%;
 }
 
-.happienes-section
-  .happienes-row
-  .happienes-right
-  .happienes-images
-  img:nth-child(2) {
+.happienes-section .happienes-row .happienes-right .happienes-images img:nth-child(2) {
   margin-top: 0;
 }
 
-.happienes-section
-  .happienes-row
-  .happienes-right
-  .happienes-images
-  img:nth-child(3) {
+.happienes-section .happienes-row .happienes-right .happienes-images img:nth-child(3) {
   margin-top: 9%;
 }
 
-.happienes-section
-  .happienes-row
-  .happienes-right
-  .happienes-images
-  img:nth-child(4) {
+.happienes-section .happienes-row .happienes-right .happienes-images img:nth-child(4) {
   margin-top: 15%;
 }
 
@@ -720,23 +690,26 @@ p {
   min-height: 300px;
   background: #3a6da4;
   background: linear-gradient(292deg, #3a6ea4 0%, #5db18f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4",endColorstr="#5db190",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4", endColorstr="#5db190", GradientType=1);
 }
-.corevalue-section ul li .corevalue-card  p {
+
+.corevalue-section ul li .corevalue-card p {
   padding: 1.5rem;
   border-radius: 25px;
   text-align: center;
   background: #3a6da470;
   background: linear-gradient(292deg, #3a6ea470 0%, #5db18f70 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4",endColorstr="#5db190",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4", endColorstr="#5db190", GradientType=1);
   visibility: hidden;
   transition: all ease-in 0.1s;
   opacity: 0;
 }
-.corevalue-section ul li .corevalue-card:hover p{
+
+.corevalue-section ul li .corevalue-card:hover p {
   visibility: visible;
   opacity: 1;
 }
+
 .corevalue-section ul li .corevalue-card h3 {
   margin-top: 1.2rem;
   padding: 1rem;
@@ -744,8 +717,9 @@ p {
   text-align: center;
   background: #3a6da4bd;
   background: linear-gradient(292deg, #3a6ea4bd 0%, #5db18fbd 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4",endColorstr="#5db190",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4", endColorstr="#5db190", GradientType=1);
 }
+
 .corevalue-section ul li .corevalue-card .overlay-line {
   position: absolute;
   top: 0;
@@ -789,20 +763,16 @@ p {
   width: 100%;
   height: 100%;
   background: #f6f4f2;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f6f4f2),
-    color-stop(47%, rgba(246, 244, 242, 0.75)),
-    to(#f6f4f2)
-  );
-  background: linear-gradient(
-    180deg,
-    #f6f4f2 0%,
-    rgba(246, 244, 242, 0.75) 47%,
-    #f6f4f2 100%
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#f6f4f2),
+      color-stop(47%, rgba(246, 244, 242, 0.75)),
+      to(#f6f4f2));
+  background: linear-gradient(180deg,
+      #f6f4f2 0%,
+      rgba(246, 244, 242, 0.75) 47%,
+      #f6f4f2 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6f4f2", endColorstr="#f6f4f2", GradientType=1);
 }
 
@@ -1064,6 +1034,7 @@ p {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   to {
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
@@ -1075,6 +1046,7 @@ p {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   to {
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
@@ -1086,10 +1058,12 @@ p {
     -webkit-transform: translateY(2px);
     transform: translateY(2px);
   }
+
   50% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   100% {
     -webkit-transform: translateY(2px);
     transform: translateY(2px);
@@ -1101,10 +1075,12 @@ p {
     -webkit-transform: translateY(2px);
     transform: translateY(2px);
   }
+
   50% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   100% {
     -webkit-transform: translateY(2px);
     transform: translateY(2px);
@@ -1252,20 +1228,16 @@ p {
 
 .about-section .faq-section-inner {
   background: white;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(white),
-    color-stop(65%, white),
-    to(rgba(255, 255, 255, 0))
-  );
-  background: linear-gradient(
-    180deg,
-    white 0%,
-    white 65%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(white),
+      color-stop(65%, white),
+      to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg,
+      white 0%,
+      white 65%,
+      rgba(255, 255, 255, 0) 100%);
   padding: 40px 40px;
 }
 
@@ -1369,6 +1341,7 @@ p {
   font-size: 2.5rem;
   color: #ffffff;
 }
+
 .crworth-section .crworth-card .left-card span {
   font-size: 2.5rem;
   color: #ffffff;
@@ -1755,11 +1728,13 @@ p {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
+
   50% {
     -webkit-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2);
     fill: #3a6ea4;
   }
+
   100% {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -1771,11 +1746,13 @@ p {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
+
   50% {
     -webkit-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2);
     fill: #3a6ea4;
   }
+
   100% {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -1830,12 +1807,7 @@ p {
   background: #d4dedf;
 }
 
-.team-dialog-main
-  .modal-content
-  .modal-body
-  .modal-inner
-  .team-details-image
-  .team-flag {
+.team-dialog-main .modal-content .modal-body .modal-inner .team-details-image .team-flag {
   width: 25px;
   height: 25px;
   position: absolute;
@@ -1844,31 +1816,15 @@ p {
   top: 12px;
 }
 
-.team-dialog-main
-  .modal-content
-  .modal-body
-  .modal-inner
-  .team-details-image
-  .team-flag
-  img {
+.team-dialog-main .modal-content .modal-body .modal-inner .team-details-image .team-flag img {
   width: 100%;
 }
 
-.team-dialog-main
-  .modal-content
-  .modal-body
-  .modal-inner
-  .team-details-image
-  .team-image {
+.team-dialog-main .modal-content .modal-body .modal-inner .team-details-image .team-image {
   width: 100%;
 }
 
-.team-dialog-main
-  .modal-content
-  .modal-body
-  .modal-inner
-  .team-details-image
-  .arrow-teams {
+.team-dialog-main .modal-content .modal-body .modal-inner .team-details-image .arrow-teams {
   position: absolute;
   bottom: -70px;
   width: 80px;
@@ -1915,14 +1871,7 @@ p {
   border: 1px solid #000000;
 }
 
-.team-dialog-main
-  .modal-content
-  .modal-body
-  .modal-inner
-  .team-details
-  ul
-  li
-  a {
+.team-dialog-main .modal-content .modal-body .modal-inner .team-details ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2029,7 +1978,7 @@ p {
 .hhd-footer .card-form {
   background: #3a6ea4;
   background: linear-gradient(292deg, #3a6ea4 0%, #5db190 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4",endColorstr="#5db190",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4", endColorstr="#5db190", GradientType=1);
   padding: 4rem;
   border-radius: 40px 0 40px 0;
 }
@@ -2062,7 +2011,7 @@ p {
 .hhd-footer .card-contact {
   background: #3a6ea4;
   background: linear-gradient(292deg, #5db190 0%, #3a6ea4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4",endColorstr="#5db190",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4", endColorstr="#5db190", GradientType=1);
   padding: 4rem;
   border-radius: 0 40px 0 40px;
   height: 100%;
@@ -2154,12 +2103,13 @@ p {
     max-width: 94%;
   }
 }
+
 /*# sourceMappingURL=hhd-style.css.map */
 
-  border: 0;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+border: 0;
+outline: none;
+-webkit-box-shadow: none;
+box-shadow: none;
 }
 
 .hhd-footer .card-form .btn {
@@ -2175,7 +2125,7 @@ p {
 .hhd-footer .card-contact {
   background: #3a6ea4;
   background: linear-gradient(292deg, #5db190 0%, #3a6ea4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4",endColorstr="#5db190",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a6ea4", endColorstr="#5db190", GradientType=1);
   padding: 4rem;
   border-radius: 0 40px 0 40px;
   height: 100%;
@@ -2262,7 +2212,7 @@ p {
   font-size: 10px;
 }
 
-.about-inner img{
+.about-inner img {
   width: 100%;
   max-width: 900px;
   margin: auto;
@@ -2279,4 +2229,5 @@ p {
     max-width: 94%;
   }
 }
+
 /*# sourceMappingURL=hhd-style.css.map */
